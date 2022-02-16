@@ -3,10 +3,10 @@ import Image from 'react-bootstrap/Image';
 import PriceBadge from '../components/price-badge';
 import Link from 'next/link';
 
-const tokenAddress = '0x00a1f22156A6dbf56C9e9cb16Ec63B0F9Ba94ad7';
-const tokenSymbol = 'LITTY';
+const tokenAddress = '0x640fa02abe368f18f0456ac51c9f7737c2383f9e';
+const tokenSymbol = 'STFR';
 const tokenDecimals = 18;
-const tokenImage = 'https://literallyuseless.money/literallyuseless.png';
+const tokenImage = 'https://postimg.cc/5Xk4bDhr';
 
 async function addIconWallet() {
   try {
@@ -34,13 +34,16 @@ function App({ Component, pageProps }) {
       <header className="flex items-center justify-between flex-0">
         <Link href="/">
           <a className="flex items-center">
-            <Image src="/literallyuseless.png" width="64" height="64" className="pixelated" alt="Literally Useless Logo"/>
+            <Image src="/mask.png" width="64" height="64" className="pixelated" alt="Literally Useless Logo" />
             <div className="leading-4">
-              <h1 style={{"width": "20px"}} className="leading-5 items-center text-xl tracking-tight font-secondary font-bold text-dark">literally useless</h1>
+              <h1 style={{"width": "400px"}} className="font-primary bodyFont leading-5 items-center text-xl tracking-tight text-dark">Mask Between Bites and Sips</h1>
             </div>
           </a>
         </Link>
         <div className='flex flex-row items-center space-x-8'>
+          <a href="https://google.com" alt="Documentation button" className='font-primary bodyFont2 hover-underline-animation'>Documentation</a>
+          <a href="https://google.com" alt="Documentation button" className='font-primary bodyFont2 hover-underline-animation'>How To Buy</a>
+
           <PriceBadge></PriceBadge>
         </div>
       </header>
@@ -55,17 +58,17 @@ function App({ Component, pageProps }) {
           </a>
         </div>
         <div className='w-full flex space-x-4 justify-center items-center'>
-          <a className='text-neutral hover-underline-animation' target='_blank' rel="noreferrer" href='https://snowtrace.io/address/0x00a1f22156A6dbf56C9e9cb16Ec63B0F9Ba94ad7'>contract</a>
+          <a className='text-neutral bodyFont2 hover-underline-animation' target='_blank' rel="noreferrer" href='https://snowtrace.io/address/0x00a1f22156A6dbf56C9e9cb16Ec63B0F9Ba94ad7'>contract</a>
           <p>|</p>
-          <a className='text-neutral hover-underline-animation' target='_blank' rel="noreferrer" href='https://traderjoexyz.com/#/trade?inputCurrency=&outputCurrency=0x00a1f22156A6dbf56C9e9cb16Ec63B0F9Ba94ad7'>traderjoexyz</a>
+          <a className='text-neutral bodyFont2 hover-underline-animation' target='_blank' rel="noreferrer" href='https://www.coinbase.com/price/avalanche'>Buy Avalanche</a>
           <p>|</p>
-          <a className='text-neutral hover-underline-animation cursor-pointer' onClick={addIconWallet}>add to Metamask</a>
+          <a className='text-neutral bodyFont2 hover-underline-animation cursor-pointer' onClick={addIconWallet}>add to Metamask</a>
         </div>
-        <div className='fixed' style={{"transform": "rotate(20deg)", left: "-80px", bottom:"-80px"}}>
-          <Image src="/landfill.png" alt="pile of trash"></Image>
+        <div className='fixed' style={{"transform": "rotate(20deg)", left: "-420px", bottom:"-420px"}}>
+          <Image src="/pileLeaves.png" alt="pile of trash"></Image>
         </div>
-        <div className='fixed' style={{"transform": "rotate(-20deg)", right: "-80px", bottom:"-80px"}}>
-          <Image src="/landfill.png" alt="pile of trash"></Image>
+        <div className='fixed' style={{"transform": "rotate(-20deg)", right: "-420px", bottom:"-420px"}}>
+          <Image src="/pileLeaves.png" alt="pile of trash"></Image>
         </div>
       </footer>
 

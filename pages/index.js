@@ -11,20 +11,20 @@ export default function Home() {
         <meta name="description" content="Literally Useless Coin"></meta>
       </Head>
       <div className='p-8 mr-32'>
-        <h1 className="font-secondary text-dark text-8xl mb-4">$LITTY</h1>
-        <h2 className='text-neutral font-secondary text-4xl'>
-          The reward currency,<br/>for web games
+        <h1 className="font-primary text-dark text-9xl mb-4">KMJ</h1>
+        <h2 className='text-primary font-primary text-7xl font-mono'>
+          The Official Crypto,<br/>Of OHIO STATE
         </h2>
         <div className='mt-12'>
-          <UselessButton to={"https://traderjoexyz.com/#/trade?inputCurrency=&outputCurrency=0x00a1f22156A6dbf56C9e9cb16Ec63B0F9Ba94ad7"}>
-            <span className='text-secondary text-lg'>click to buy</span>
+          <UselessButton to={"https://traderjoexyz.com/trade?inputCurrency=&outputCurrency=0x640fa02abe368f18f0456ac51c9f7737c2383f9e"}>
+            <span className='text-secondary hover-underline-animation text-lg'>click to buy</span>
           </UselessButton>
         </div>
       </div>
       <figure>
-        <model-viewer style={{width:"500px",height:"600px"}} loading="eager" auto-rotate-delay="1000" camera-orbit="0 65deg 0"
+        <model-viewer style={{width:"400px",height:"600px"}} loading="eager" auto-rotate-delay="1000" camera-orbit="0 65deg 0"
           interaction-prompt="none" rotation-per-second="200%" camera-controls auto-rotate environment-image="neutral" 
-          disable-zoom shadow-intensity="0.6" src="/litty_voxel.glb"></model-viewer>
+          disable-zoom shadow-intensity="0.6" src="/blockO.glb"></model-viewer>
       </figure>
     </main>
   )

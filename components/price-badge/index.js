@@ -3,9 +3,9 @@ import Loader from "../loader";
 
 export default class PriceBadge extends React.Component {
 
-    LITTY_ADDRESS = '0x00a1f22156A6dbf56C9e9cb16Ec63B0F9Ba94ad7';
-    USD_API = 'https://api.traderjoexyz.com/priceusd/0x00a1f22156A6dbf56C9e9cb16Ec63B0F9Ba94ad7';
-    LITTY_AVAX_TRADE = 'https://traderjoexyz.com/#/trade?inputCurrency=&outputCurrency=0x00a1f22156A6dbf56C9e9cb16Ec63B0F9Ba94ad7';
+    LITTY_ADDRESS = '0x640fa02abe368f18f0456ac51c9f7737c2383f9e';
+    USD_API = 'https://api.traderjoexyz.com/priceusd/0x640fa02abe368f18f0456ac51c9f7737c2383f9e';
+    LITTY_AVAX_TRADE = 'https://traderjoexyz.com/trade?inputCurrency=&outputCurrency=0x640fa02abe368f18f0456ac51c9f7737c2383f9e';
 
     constructor(props) {
         super(props);
@@ -33,7 +33,7 @@ export default class PriceBadge extends React.Component {
                 { this.state.loading ? 
                     <Loader/>
                     : 
-                    <a href={this.LITTY_AVAX_TRADE} title="Click to buy $LITTY" rel="noreferrer" className="pop-animation  font-bold rounded-full bg-highlight text-secondary py-3 px-4" target="_blank">
+                    <a href={this.LITTY_AVAX_TRADE} title="Click to buy $KMJ" rel="noreferrer" className="pop-animation text-secondary bodyFont2 font-bold hover-underline-animation rounded-full bg-highlight font-secondary py-3 px-6" target="_blank">
                         {`$${this.state.price}`}
                     </a>
                 }

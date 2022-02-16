@@ -9,7 +9,7 @@ export default class UselessButton extends React.Component {
 
     render() {
         return (
-            <a className="bg-highlight rounded-full font-bold px-8 py-4" href={this.props.to}>
+            <a className="bg-highlight bodyFont paddingClass color-primary rounded-full font-bold px-10 py-4" href={this.props.to}>
                 {this.props.children}
             </a>
         );

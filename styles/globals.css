@@ -1,12 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Quicksand";
+}
+.bodyFont2{
+font-family: "arial";
 }
 
 a {
@@ -25,8 +30,23 @@ div#__next > div {
   height: 100%;
 }
 
+.bodyFont{
+  letter-spacing: 4px;
+}
+
+.bodyFont2{
+  letter-spacing: 2px;
+}
+.Font2{
+  letter-spacing: 2px;
+}
+.paddingClass{
+
+  margin-left: 10px;
+}
 .pixelated {
   image-rendering: pixelated;
+  padding: 5px;
 }
 
 .pop-animation {

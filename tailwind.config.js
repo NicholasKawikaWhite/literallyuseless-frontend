@@ -4,16 +4,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#ADD1A7',
-        secondary: '#2E522E',
-        highlight: '#92C989',
-        neutral: '#5E5E5E',
+        primary: '#BB0001',
+        secondary: '#BB0001',
+        highlight: '#B2BEB5;',
+        neutral: '#B2BEB5;',
         dark: '#383838',
         background: '#F9FFF8',
       },
       fontFamily: {
-        primary: ['Comic Neue, sans-serif'],
-        secondary: ['Coming Soon, serif'],
+        primary: ['SIKAT, sans-serif'],
+        secondary: ['Arial, serif'],
       }
 
     },
