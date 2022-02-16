@@ -34,7 +34,7 @@ function App({ Component, pageProps }) {
       <header className="flex items-center justify-between flex-0">
         <Link href="/">
           <a className="flex items-center">
-            <Image src="/mask.png" width="64" height="64" className="pixelated" alt="Literally Useless Logo" />
+            <Image src="/mask_clear.png" width="64" height="64" className="pixelated" alt="Literally Useless Logo" />
             <div className="leading-4">
               <h1 style={{"width": "400px"}} className="font-primary bodyFont leading-5 items-center text-xl tracking-tight text-dark">Mask Between Bites and Sips</h1>
             </div>
@@ -50,10 +50,10 @@ function App({ Component, pageProps }) {
       <Component {...pageProps} />
       <footer className="w-full left-0 bottom-0 py-4 flex-0">
         <div className='w-full flex space-x-4 mb-2 justify-center items-center'>
-          <a className='z-10 w-10 h-10 ' href='https://discord.gg/hTJJQXyMUZ' target='_blank' rel="noreferrer">
+          <a className='z-10 w-10 h-10 ' href='https://discord.com' target='_blank' rel="noreferrer">
             <Image src="/discord.png" alt="discord logo"></Image>
           </a>
-          <a className='z-10 w-10 h-10 ' href='https://twitter.com/error_litty' target='_blank' rel="noreferrer">
+          <a className='z-10 w-10 h-10 ' href='https://twitter.com/' target='_blank' rel="noreferrer">
             <Image src="/twitter.png" alt="twitter logo"></Image>
           </a>
         </div>

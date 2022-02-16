@@ -7,8 +7,8 @@ export default function Home() {
     <main className="flex items-center h-full static items-center justify-center">
       <Script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></Script>
       <Head>
-        <title>literally useless</title>
-        <meta name="description" content="Literally Useless Coin"></meta>
+        <title>KMJ</title>
+        <meta name="description" content="KMJ"></meta>
       </Head>
       <div className='p-8 mr-32'>
         <h1 className="font-primary text-dark text-9xl mb-4">KMJ</h1>
