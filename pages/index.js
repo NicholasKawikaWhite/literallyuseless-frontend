@@ -13,7 +13,7 @@ export default function Home() {
       <div className='p-8 mr-32'>
         <h1 className="font-primary text-dark text-9xl mb-4">KMJ</h1>
         <h2 className='text-primary font-primary text-7xl font-mono'>
-          The Official Crypto,<br/>Of OHIO STATE
+          The Student Crypto,<br/>Of OHIO STATE
         </h2>
         <div className='mt-12'>
           <UselessButton to={"https://traderjoexyz.com/trade?inputCurrency=&outputCurrency=0x640fa02abe368f18f0456ac51c9f7737c2383f9e"}>
