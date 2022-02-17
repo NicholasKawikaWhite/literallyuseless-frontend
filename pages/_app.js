@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import Image from 'react-bootstrap/Image';
 import PriceBadge from '../components/price-badge';
+import Card from '../components/card';
 import Link from 'next/link';
 
 const tokenAddress = '0x640fa02abe368f18f0456ac51c9f7737c2383f9e';
@@ -41,6 +42,7 @@ function App({ Component, pageProps }) {
           </a>
         </Link>
         <div className='flex flex-row items-center space-x-8'>
+        <a href="https://google.com" alt="Documentation button" className='font-primary bodyFont2 hover-underline-animation'>Merch Store</a>
           <a href="https://google.com" alt="Documentation button" className='font-primary bodyFont2 hover-underline-animation'>Documentation</a>
           <a href="https://google.com" alt="Documentation button" className='font-primary bodyFont2 hover-underline-animation'>How To Buy</a>
 
@@ -57,13 +59,8 @@ function App({ Component, pageProps }) {
             <Image src="/twitter.png" alt="twitter logo"></Image>
           </a>
         </div>
-        <div className='w-full flex space-x-4 justify-center items-center'>
-          <a className='text-neutral bodyFont2 hover-underline-animation' target='_blank' rel="noreferrer" href='https://snowtrace.io/address/0x00a1f22156A6dbf56C9e9cb16Ec63B0F9Ba94ad7'>contract</a>
-          <p>|</p>
-          <a className='text-neutral bodyFont2 hover-underline-animation' target='_blank' rel="noreferrer" href='https://www.coinbase.com/price/avalanche'>Buy Avalanche</a>
-          <p>|</p>
-          <a className='text-neutral bodyFont2 hover-underline-animation cursor-pointer' onClick={addIconWallet}>add to Metamask</a>
-        </div>
+        <Card></Card>
+        
         <div className='fixed' style={{"transform": "rotate(20deg)", left: "-420px", bottom:"-420px"}}>
           <Image src="/pileLeaves.png" alt="pile of trash"></Image>
         </div>

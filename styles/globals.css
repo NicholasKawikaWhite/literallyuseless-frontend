@@ -18,7 +18,15 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+.card{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-body{
+  padding: 2px;
+}
 * {
   box-sizing: border-box;
 }
