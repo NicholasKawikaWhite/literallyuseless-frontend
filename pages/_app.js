@@ -6,7 +6,7 @@ import Link from 'next/link';
 const tokenAddress = '0x640fa02abe368f18f0456ac51c9f7737c2383f9e';
 const tokenSymbol = 'STFR';
 const tokenDecimals = 18;
-const tokenImage = 'https://angry-tereshkova-e5c57f.netlify.app/mask_clear.png';
+const tokenImage = 'https://kmjcoin.netlify.app/mask_clear.png';
 
 async function addIconWallet() {
   try {
