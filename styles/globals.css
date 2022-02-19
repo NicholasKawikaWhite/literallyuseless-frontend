@@ -17,7 +17,8 @@ font-family: "arial";
   width: 120%;
 }
 .tryToCent{
-  color: black;
+  justify-content: center;
+  align-items: center;
 }
 a {
   color: inherit;
@@ -118,3 +119,5 @@ div#__next > div {
 .blur-edges-bg {
   box-shadow: 0 0 8px 8px theme('colors.background') inset;
 }
+
+
