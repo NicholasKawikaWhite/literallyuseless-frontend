@@ -13,10 +13,18 @@ body {
 .bodyFont2{
 font-family: "arial";
 }
-
+.wid{
+  width: 120%;
+}
+.tryToCent{
+  color: black;
+}
 a {
   color: inherit;
   text-decoration: none;
+}
+.scarlet{
+  color: #BB0001 !important;
 }
 .card{
   color: black;

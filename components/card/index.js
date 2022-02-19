@@ -1,4 +1,5 @@
 import React from "react";
+import Container from 'react-bootstrap/Container';
 //import addIconWallet from "pages/_app.js";
 
 const tokenAddress = '0x640fa02abe368f18f0456ac51c9f7737c2383f9e';
@@ -25,23 +26,21 @@ async function addIconWallet() {
   }
 }
 
-export default class Card extends React.Component {
+export default class Cards extends React.Component {
     
   render() {
     return (
       <div>
-        <div class="card">
-          <div class="card-body">
-          <div className='w-full flex space-x-4 justify-center items-center'>
+        <Container>
+          <div className=' flex space-x-4 justify-center items-center'>
           <a className='text-neutral bodyFont2 hover-underline-animation' target='_blank' rel="noreferrer" href='https://snowtrace.io/address/0x00a1f22156A6dbf56C9e9cb16Ec63B0F9Ba94ad7'>contract</a>
           <p>|</p>
           <a className='text-neutral bodyFont2 hover-underline-animation' target='_blank' rel="noreferrer" href='https://www.coinbase.com/price/avalanche'>Buy Avalanche</a>
           <p>|</p>
           <a className='text-neutral bodyFont2 hover-underline-animation cursor-pointer' onClick={addIconWallet}>add to Metamask</a>
         </div>
-          </div>
+        </Container>
         </div>
-      </div>
     );
   }
 }
