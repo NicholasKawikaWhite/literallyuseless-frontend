@@ -10,14 +10,14 @@ import Card from 'react-bootstrap/Card';
 
 export default function Home() {
   return (
-    <main className="flex items-center h-full static tryToCent justify-center">
+    <main className="flex items-center h-full static items-center justify-center">
       <Script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></Script>
       <Head>
         <title>KMJ</title>
         <meta name="description" content="KMJ"></meta>
       </Head>
         <Container fluid="md" >
-        <Row xs={2} md={2}>
+        <Row lg={1}>
             <Col>
             <div className='p-8 mr-32'>
             <h1 className="font-primary text-dark text-9xl mb-4">KMJ</h1>
@@ -31,17 +31,13 @@ export default function Home() {
             </div>
           </div>
             </Col>
-            <Col>
-            <figure>
-              <model-viewer style={{width:"400px",height:"520px"}} loading="eager" auto-rotate-delay="1000" camera-orbit="0 65deg 0"
-                interaction-prompt="none" rotation-per-second="200%" camera-controls auto-rotate environment-image="neutral" 
-                disable-zoom shadow-intensity="0.6" src="/blockO.glb"></model-viewer>
-            </figure>            
-            </Col>
-        </Row>
-
+            </Row>
         </Container>
-
+      <figure>
+        <model-viewer style={{width:"400px",height:"520px"}} loading="eager" auto-rotate-delay="1000" camera-orbit="0 65deg 0"
+          interaction-prompt="none" rotation-per-second="200%" camera-controls auto-rotate environment-image="neutral" 
+          disable-zoom shadow-intensity="0.6" src="/blockO.glb"></model-viewer>
+      </figure>
 
     </main>
 
