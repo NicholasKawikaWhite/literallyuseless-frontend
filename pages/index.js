@@ -29,7 +29,7 @@ export default function Home() {
       </div>
         </Container>
       <figure>
-        <model-viewer style={{width:"400px",height:"520px"}} loading="eager" auto-rotate-delay="1000" camera-orbit="0 65deg 0"
+        <model-viewer style={{width:"50px",height:"50px"}} loading="eager" auto-rotate-delay="1000" camera-orbit="0 65deg 0"
           interaction-prompt="none" rotation-per-second="200%" camera-controls auto-rotate environment-image="neutral" 
           disable-zoom shadow-intensity="0.6" src="/blockO.glb"></model-viewer>
       </figure>
