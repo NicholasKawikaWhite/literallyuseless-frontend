@@ -40,7 +40,7 @@ function App({ Component, pageProps }) {
       <header className="flex items-center justify-between flex-0">
         <Link href="/">
           <a className="flex items-center">
-            <Image src="/mask_clear.png" width="64" height="64" className="pixelated" alt="Literally Useless Logo" />
+            <Image src="/32mask.png" width="64" height="64" className="pixelated" alt="Literally Useless Logo" />
             <div className="leading-4">
               <h1 style={{"width": "400px"}} className="font-primary bodyFont leading-5 items-center text-xl tracking-tight text-dark">Mask Between Bites and Sips</h1>
             </div>
